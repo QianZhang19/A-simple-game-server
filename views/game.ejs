@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+</head>
+
+<body>
+    <h1>Current player: <%= name %>
+    </h1>
+    <p1>Choose your option: </p1>
+    <p></p>
+    <form action="/result" method="post">
+        <input id="rock-button" type="submit" value="rock" name="choice">
+        <input id="paper-button" type="submit" value="paper" name="choice">
+        <input id="scissors-button" type="submit" value="scissors" name="choice">
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,35 @@
+{
+  "name": "rock-paper-scissors-challenge",
+  "version": "1.0.0",
+  "description": "Instructions -------",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "dearshrewdwit",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^4.5.0"
+  },
+  "dependencies": {
+    "chai": "^4.3.7",
+    "chai-http": "^4.3.0",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "mocha": "^10.1.0",
+    "nodemon": "^2.0.20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QianZhang19/rock-paper-scissors-challenge.git"
+  },
+  "keywords": [
+    "prc"
+  ],
+  "bugs": {
+    "url": "https://github.com/QianZhang19/rock-paper-scissors-challenge/issues"
+  },
+  "homepage": "https://github.com/QianZhang19/rock-paper-scissors-challenge#readme"
+}
